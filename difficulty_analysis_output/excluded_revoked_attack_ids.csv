@@ -1,0 +1,35 @@
+sid,existing_technique,llm_prediction,agreement,exclusion_reason
+809,T1065 - Uncommonly Used Port,T1190 - Exploit Public-Facing Application,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+1090,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+1129,T1170 - Mshta,T1590.004 - Network Topology,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+1434,T1139 - Bash History,T1552.003 - Shell History,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+2176,T1060 - Registry Run Keys / Startup Folder,T1021.002 - SMB/Windows Admin Shares,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+2177,T1060 - Registry Run Keys / Startup Folder,T1021.002 - SMB/Windows Admin Shares,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+25578,T1192 - Spearphishing Link,T1105 - Ingress Tool Transfer,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+25579,T1192 - Spearphishing Link,T1105 - Ingress Tool Transfer,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+25580,T1192 - Spearphishing Link,T1105 - Ingress Tool Transfer,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+26261,T1192 - Spearphishing Link,T1105 - Ingress Tool Transfer,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+26660,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+26774,T1196 - Control Panel Items,T1071.001 - Web Protocols,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+27966,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+27967,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+27968,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+28255,T1192 - Spearphishing Link,T1566.002 - Spearphishing Link,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+28323,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+29396,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+29397,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+29398,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+29399,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+29869,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+30567,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+30568,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+30569,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+32008,T1192 - Spearphishing Link,T1566.001 - Spearphishing Attachment,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+33547,T1065 - Uncommonly Used Port,T1071.001 - Web Protocols,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+37245,T1001 - Data Obfuscation|T1100 - Web Shell|T1132 - Data Encoding,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+42340,T1077 - Windows Admin Shares,T1018 - Remote System Discovery,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+42834,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+42835,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+42836,T1100 - Web Shell,T1505.003 - Web Shell,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+43002,T1077 - Windows Admin Shares,T1018 - Remote System Discovery,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID
+43003,T1077 - Windows Admin Shares,T1021.002 - SMB/Windows Admin Shares,mismatch,existing mapping cites a revoked or deprecated ATT&CK ID

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="275" viewBox="0 0 760 275">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="35" font-family="Arial" font-size="20" fill="#111827">Mapped Rule LLM Validation</text>
+<text x="30" y="78" font-family="Arial" font-size="14" fill="#374151">match</text>
+<rect x="180" y="60" width="0" height="22" fill="#059669"/>
+<text x="190" y="77" font-family="Arial" font-size="14" fill="#111827">0</text>
+<text x="30" y="111" font-family="Arial" font-size="14" fill="#374151">partial_match</text>
+<rect x="180" y="93" width="0" height="22" fill="#2563eb"/>
+<text x="190" y="110" font-family="Arial" font-size="14" fill="#111827">0</text>
+<text x="30" y="144" font-family="Arial" font-size="14" fill="#374151">mismatch</text>
+<rect x="180" y="126" width="125" height="22" fill="#dc2626"/>
+<text x="315" y="143" font-family="Arial" font-size="14" fill="#111827">1</text>
+<text x="30" y="177" font-family="Arial" font-size="14" fill="#374151">no_prediction</text>
+<rect x="180" y="159" width="500" height="22" fill="#d97706"/>
+<text x="690" y="176" font-family="Arial" font-size="14" fill="#111827">4</text>
+<text x="30" y="210" font-family="Arial" font-size="14" fill="#374151">validation_error</text>
+<rect x="180" y="192" width="0" height="22" fill="#6b7280"/>
+<text x="190" y="209" font-family="Arial" font-size="14" fill="#111827">0</text>
+</svg>

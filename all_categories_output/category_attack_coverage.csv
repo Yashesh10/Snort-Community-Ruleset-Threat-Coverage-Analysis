@@ -1,0 +1,74 @@
+category,mapping_type,technique_id,name,status,tactics,rule_count,url
+attempted-admin,direct,T1014,Rootkit,active,stealth,4,https://attack.mitre.org/techniques/T1014
+attempted-admin,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,2,https://attack.mitre.org/techniques/T1105
+attempted-dos,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,4,https://attack.mitre.org/techniques/T1078
+attempted-recon,direct,T1018,Remote System Discovery,active,discovery,10,https://attack.mitre.org/techniques/T1018
+attempted-recon,direct,T1020,Automated Exfiltration,active,exfiltration,1,https://attack.mitre.org/techniques/T1020
+attempted-recon,direct,T1040,Network Sniffing,active,credential-access|discovery,10,https://attack.mitre.org/techniques/T1040
+attempted-recon,direct,T1046,Network Service Discovery,active,discovery,10,https://attack.mitre.org/techniques/T1046
+attempted-recon,direct,T1060,Registry Run Keys / Startup Folder,revoked,persistence,2,https://attack.mitre.org/techniques/T1060
+attempted-recon,direct,T1077,Windows Admin Shares,revoked,lateral-movement,1,https://attack.mitre.org/techniques/T1077
+attempted-recon,direct,T1087,Account Discovery,active,discovery,4,https://attack.mitre.org/techniques/T1087
+attempted-recon,direct,T1170,Mshta,revoked,execution|stealth,1,https://attack.mitre.org/techniques/T1170
+attempted-recon,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,1,https://attack.mitre.org/techniques/T1105
+attempted-user,heuristic,T1071.001,Web Protocols,active,command-and-control,3,https://attack.mitre.org/techniques/T1071/001
+attempted-user,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,5,https://attack.mitre.org/techniques/T1105
+bad-unknown,direct,T1018,Remote System Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1018
+bad-unknown,direct,T1027,Obfuscated Files or Information,active,stealth,2,https://attack.mitre.org/techniques/T1027
+bad-unknown,direct,T1040,Network Sniffing,active,credential-access|discovery,2,https://attack.mitre.org/techniques/T1040
+bad-unknown,direct,T1046,Network Service Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1046
+bad-unknown,direct,T1140,Deobfuscate/Decode Files or Information,active,stealth,2,https://attack.mitre.org/techniques/T1140
+default-login-attempt,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,6,https://attack.mitre.org/techniques/T1078
+misc-activity,direct,T1014,Rootkit,active,stealth,9,https://attack.mitre.org/techniques/T1014
+misc-activity,direct,T1018,Remote System Discovery,active,discovery,3,https://attack.mitre.org/techniques/T1018
+misc-activity,direct,T1027,Obfuscated Files or Information,active,stealth,1,https://attack.mitre.org/techniques/T1027
+misc-activity,direct,T1040,Network Sniffing,active,credential-access|discovery,3,https://attack.mitre.org/techniques/T1040
+misc-activity,direct,T1046,Network Service Discovery,active,discovery,3,https://attack.mitre.org/techniques/T1046
+misc-activity,direct,T1048,Exfiltration Over Alternative Protocol,active,exfiltration,1,https://attack.mitre.org/techniques/T1048
+misc-activity,direct,T1077,Windows Admin Shares,revoked,lateral-movement,2,https://attack.mitre.org/techniques/T1077
+misc-activity,direct,T1140,Deobfuscate/Decode Files or Information,active,stealth,1,https://attack.mitre.org/techniques/T1140
+misc-activity,direct,T1220,XSL Script Processing,active,stealth,6,https://attack.mitre.org/techniques/T1220
+misc-activity,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,42,https://attack.mitre.org/techniques/T1105
+network-scan,direct,T1018,Remote System Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1018
+network-scan,direct,T1040,Network Sniffing,active,credential-access|discovery,2,https://attack.mitre.org/techniques/T1040
+network-scan,direct,T1046,Network Service Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1046
+policy-violation,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,1,https://attack.mitre.org/techniques/T1078
+policy-violation,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,6,https://attack.mitre.org/techniques/T1105
+successful-user,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,1,https://attack.mitre.org/techniques/T1105
+suspicious-login,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,2,https://attack.mitre.org/techniques/T1078
+suspicious-login,direct,T1110,Brute Force,active,credential-access,3,https://attack.mitre.org/techniques/T1110
+trojan-activity,direct,T1001,Data Obfuscation,active,command-and-control,2,https://attack.mitre.org/techniques/T1001
+trojan-activity,direct,T1014,Rootkit,active,stealth,5,https://attack.mitre.org/techniques/T1014
+trojan-activity,direct,T1020,Automated Exfiltration,active,exfiltration,19,https://attack.mitre.org/techniques/T1020
+trojan-activity,direct,T1027,Obfuscated Files or Information,active,stealth,5,https://attack.mitre.org/techniques/T1027
+trojan-activity,direct,T1055,Process Injection,active,privilege-escalation|stealth,1,https://attack.mitre.org/techniques/T1055
+trojan-activity,direct,T1056,Input Capture,active,collection|credential-access,25,https://attack.mitre.org/techniques/T1056
+trojan-activity,direct,T1065,Uncommonly Used Port,revoked,command-and-control,1,https://attack.mitre.org/techniques/T1065
+trojan-activity,direct,T1100,Web Shell,revoked,persistence|privilege-escalation,8,https://attack.mitre.org/techniques/T1100
+trojan-activity,direct,T1102,Web Service,active,command-and-control,3,https://attack.mitre.org/techniques/T1102
+trojan-activity,direct,T1132,Data Encoding,active,command-and-control,2,https://attack.mitre.org/techniques/T1132
+trojan-activity,direct,T1140,Deobfuscate/Decode Files or Information,active,stealth,5,https://attack.mitre.org/techniques/T1140
+trojan-activity,direct,T1176,Software Extensions,active,persistence,6,https://attack.mitre.org/techniques/T1176
+trojan-activity,direct,T1189,Drive-by Compromise,active,initial-access,1,https://attack.mitre.org/techniques/T1189
+trojan-activity,direct,T1192,Spearphishing Link,revoked,initial-access,15,https://attack.mitre.org/techniques/T1192
+trojan-activity,direct,T1196,Control Panel Items,revoked,execution|stealth,1,https://attack.mitre.org/techniques/T1196
+trojan-activity,direct,T1197,BITS Jobs,active,execution|persistence|stealth,3,https://attack.mitre.org/techniques/T1197
+trojan-activity,heuristic,T1071.001,Web Protocols,active,command-and-control,57,https://attack.mitre.org/techniques/T1071/001
+trojan-activity,heuristic,T1071.004,DNS,active,command-and-control,6,https://attack.mitre.org/techniques/T1071/004
+trojan-activity,heuristic,T1095,Non-Application Layer Protocol,active,command-and-control,6,https://attack.mitre.org/techniques/T1095
+trojan-activity,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,148,https://attack.mitre.org/techniques/T1105
+trojan-activity,heuristic,T1505.003,Web Shell,active,persistence,12,https://attack.mitre.org/techniques/T1505/003
+unsuccessful-user,direct,T1110,Brute Force,active,credential-access,2,https://attack.mitre.org/techniques/T1110
+web-application-activity,direct,T1018,Remote System Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1018
+web-application-activity,direct,T1040,Network Sniffing,active,credential-access|discovery,2,https://attack.mitre.org/techniques/T1040
+web-application-activity,direct,T1046,Network Service Discovery,active,discovery,2,https://attack.mitre.org/techniques/T1046
+web-application-activity,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,2,https://attack.mitre.org/techniques/T1078
+web-application-activity,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,1,https://attack.mitre.org/techniques/T1105
+web-application-attack,direct,T1027,Obfuscated Files or Information,active,stealth,1,https://attack.mitre.org/techniques/T1027
+web-application-attack,direct,T1065,Uncommonly Used Port,revoked,command-and-control,1,https://attack.mitre.org/techniques/T1065
+web-application-attack,direct,T1078,Valid Accounts,active,initial-access|persistence|privilege-escalation|stealth,1,https://attack.mitre.org/techniques/T1078
+web-application-attack,direct,T1100,Web Shell,revoked,persistence|privilege-escalation,1,https://attack.mitre.org/techniques/T1100
+web-application-attack,direct,T1139,Bash History,revoked,credential-access,1,https://attack.mitre.org/techniques/T1139
+web-application-attack,direct,T1140,Deobfuscate/Decode Files or Information,active,stealth,1,https://attack.mitre.org/techniques/T1140
+web-application-attack,direct,T1190,Exploit Public-Facing Application,active,initial-access,1,https://attack.mitre.org/techniques/T1190
+web-application-attack,heuristic,T1105,Ingress Tool Transfer,active,command-and-control,5,https://attack.mitre.org/techniques/T1105

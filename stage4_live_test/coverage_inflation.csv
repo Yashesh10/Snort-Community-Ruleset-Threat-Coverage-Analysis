@@ -1,0 +1,28 @@
+category,total_rules,unique_attack_ids,rules_per_attack,inflation_note
+attempted-user,427,2,213.5,many rules but low ATT&CK technique diversity
+attempted-admin,278,2,139.0,many rules but low ATT&CK technique diversity
+web-application-activity,481,5,96.2,many rules but low ATT&CK technique diversity
+attempted-dos,67,1,67.0,many rules but low ATT&CK technique diversity
+trojan-activity,1118,21,53.24,many rules but low ATT&CK technique diversity
+attempted-recon,436,9,48.44,many rules but low ATT&CK technique diversity
+web-application-attack,356,8,44.5,many rules but low ATT&CK technique diversity
+misc-activity,350,10,35.0,many rules but low ATT&CK technique diversity
+policy-violation,63,2,31.5,many rules but low ATT&CK technique diversity
+unsuccessful-user,10,1,10.0,limited ATT&CK technique diversity
+bad-unknown,45,5,9.0,no obvious inflation signal
+default-login-attempt,9,1,9.0,no obvious inflation signal
+suspicious-login,16,2,8.0,limited ATT&CK technique diversity
+network-scan,7,3,2.33,no obvious inflation signal
+successful-user,1,1,1.0,no obvious inflation signal
+protocol-command-decode,108,0,0,no ATT&CK technique diversity
+misc-attack,101,0,0,no ATT&CK technique diversity
+rpc-portmap-decode,83,0,0,no ATT&CK technique diversity
+shellcode-detect,26,0,0,no ATT&CK technique diversity
+successful-admin,10,0,0,no ATT&CK technique diversity
+suspicious-filename-detect,6,0,0,no ATT&CK technique diversity
+system-call-detect,5,0,0,no ATT&CK technique diversity
+denial-of-service,5,0,0,no ATT&CK technique diversity
+successful-recon-limited,4,0,0,no ATT&CK technique diversity
+unknown,2,0,0,no ATT&CK technique diversity
+string-detect,2,0,0,no ATT&CK technique diversity
+non-standard-protocol,1,0,0,no ATT&CK technique diversity

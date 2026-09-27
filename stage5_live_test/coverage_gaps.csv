@@ -1,0 +1,28 @@
+category,rules,direct_attack_rules,direct_attack_rule_pct,heuristic_attack_rules,heuristic_attack_rule_pct,direct_unique_techniques,direct_revoked_techniques,gap_notes
+attempted-user,427,0,0.0,8,1.87,0,0,no direct ATT&CK references
+protocol-command-decode,108,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+misc-attack,101,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+rpc-portmap-decode,83,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+shellcode-detect,26,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+successful-admin,10,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+suspicious-filename-detect,6,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates; no external references
+denial-of-service,5,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+system-call-detect,5,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+successful-recon-limited,4,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+string-detect,2,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+unknown,2,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates; no external references
+non-standard-protocol,1,0,0.0,0,0.0,0,0,no direct ATT&CK references; no heuristic ATT&CK candidates
+successful-user,1,0,0.0,1,100.0,0,0,no direct ATT&CK references; no external references
+web-application-activity,481,4,0.83,1,0.21,4,0,low direct ATT&CK reference rate
+web-application-attack,356,5,1.4,5,1.4,7,3,low direct ATT&CK reference rate; contains revoked ATT&CK references
+attempted-admin,278,4,1.44,2,0.72,1,0,low direct ATT&CK reference rate
+policy-violation,63,1,1.59,6,9.52,1,0,low direct ATT&CK reference rate
+attempted-recon,436,19,4.36,1,0.23,8,3,low direct ATT&CK reference rate; contains revoked ATT&CK references
+attempted-dos,67,4,5.97,0,0.0,1,0,no heuristic ATT&CK candidates
+misc-activity,350,22,6.29,42,12.0,9,1,contains revoked ATT&CK references
+trojan-activity,1118,83,7.42,220,19.68,16,4,contains revoked ATT&CK references
+bad-unknown,45,4,8.89,0,0.0,5,0,no heuristic ATT&CK candidates
+unsuccessful-user,10,2,20.0,0,0.0,1,0,no heuristic ATT&CK candidates
+network-scan,7,2,28.57,0,0.0,3,0,no heuristic ATT&CK candidates
+suspicious-login,16,5,31.25,0,0.0,2,0,no heuristic ATT&CK candidates
+default-login-attempt,9,6,66.67,0,0.0,1,0,no heuristic ATT&CK candidates

@@ -1,0 +1,251 @@
+sid,rev,category,msg,complexity,complexity_score,direct_attack_techniques,service
+1734,50,attempted-admin,PROTOCOL-FTP USER overflow attempt,complex,47,,ftp
+2278,36,misc-attack,SERVER-WEBAPP HTTP request with negative Content-Length attempt,complex,38,,http
+2338,35,misc-attack,PROTOCOL-FTP LIST buffer overflow attempt,complex,34,,ftp
+1842,35,attempted-user,PROTOCOL-IMAP login buffer overflow attempt,complex,30,,imap
+2435,34,misc-activity,FILE-IDENTIFY Microsoft emf file download request,complex,35,,http
+2420,33,misc-activity,FILE-IDENTIFY RealNetworks Realplayer .rmp playlist file download request,complex,29,,http
+1972,32,attempted-admin,PROTOCOL-FTP PASS overflow attempt,complex,33,,ftp
+987,32,misc-activity,FILE-IDENTIFY .htr access file download request,complex,24,,http
+1973,31,attempted-admin,PROTOCOL-FTP MKD overflow attempt,complex,31,,ftp
+1919,31,attempted-admin,PROTOCOL-FTP CWD overflow attempt,complex,31,,ftp
+2436,31,misc-activity,FILE-IDENTIFY Microsoft Windows Audio wmf file download request,complex,26,,http
+2422,31,misc-activity,FILE-IDENTIFY RealNetworks Realplayer .rt playlist file download request,complex,26,,http
+593,31,rpc-portmap-decode,PROTOCOL-RPC portmap snmpXdmi request TCP,complex,25,,sunrpc
+1248,31,web-application-activity,SERVER-OTHER Microsoft Frontpage rad fp30reg.dll access,moderate,18,,http
+1019,30,web-application-attack,SERVER-IIS Malformed Hit-Highlighting Argument File Access Attempt,complex,31,,http
+2423,30,misc-activity,FILE-IDENTIFY RealNetworks Realplayer .rp playlist file download request,complex,26,,http
+2419,30,misc-activity,FILE-IDENTIFY RealNetworks Realplayer .ram playlist file download request,complex,26,,http
+654,29,attempted-admin,SERVER-MAIL RCPT TO overflow,complex,25,,smtp
+1021,29,web-application-attack,SERVER-IIS ism.dll attempt,complex,23,,http
+940,29,web-application-activity,SERVER-OTHER Microsoft Frontpage shtml.dll access,moderate,20,,http
+1244,29,web-application-attack,SERVER-IIS ISAPI .idq attempt,moderate,19,,http
+1279,28,rpc-portmap-decode,PROTOCOL-RPC portmap snmpXdmi request UDP,complex,25,,sunrpc
+971,28,web-application-activity,SERVER-IIS ISAPI .printer access,moderate,17,,http
+886,28,web-application-activity,SERVER-WEBAPP phf access,moderate,15,,http
+588,27,rpc-portmap-decode,PROTOCOL-RPC portmap ttdbserv request UDP,complex,27,,sunrpc
+1975,27,attempted-admin,PROTOCOL-FTP DELE overflow attempt,complex,25,,ftp
+17314,27,misc-activity,FILE-IDENTIFY OLE document file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+16474,27,misc-activity,FILE-IDENTIFY Microsoft Compound File Binary v3 file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+1549,27,attempted-admin,SERVER-MAIL HELO overflow attempt,complex,22,,smtp
+1762,27,web-application-attack,SERVER-WEBAPP phf arbitrary command execution attempt,moderate,21,,http
+1437,27,misc-activity,FILE-IDENTIFY Microsoft Windows Media download detected,complex,19,,"ftp-data,http,imap,pop3"
+824,27,attempted-recon,SERVER-WEBAPP php.cgi access,moderate,18,,http
+975,27,web-application-attack,SERVER-IIS Alternate Data streams ASP file access attempt,moderate,17,,http
+1866,26,attempted-admin,PROTOCOL-POP USER overflow attempt,complex,28,,pop3
+1274,26,rpc-portmap-decode,PROTOCOL-RPC portmap ttdbserv request TCP,complex,28,,sunrpc
+1618,26,web-application-attack,SERVER-IIS .asp chunked Transfer-Encoding,moderate,27,,http
+13801,26,misc-activity,FILE-IDENTIFY RTF file download request,complex,26,,http
+20463,26,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,25,,"ftp-data,http,imap,pop3"
+1567,26,web-application-attack,SERVER-IIS /exchange/root.asp attempt,moderate,21,,http
+1807,26,policy-violation,POLICY-OTHER Chunked-Encoding transfer with no data attempt,moderate,19,,http
+2129,26,web-application-activity,SERVER-IIS nsiislog.dll access,moderate,18,,http
+1016,26,web-application-activity,SERVER-IIS global.asa access,moderate,18,,http
+967,26,web-application-activity,SERVER-OTHER Microsoft Frontpage dvwssr.dll access,moderate,18,,http
+1042,26,web-application-activity,SERVER-IIS view source via translate header,moderate,17,,http
+1243,26,web-application-attack,SERVER-IIS ISAPI .ida attempt,moderate,16,,http
+1020,26,web-application-attack,SERVER-IIS isc$data attempt,moderate,16,,http
+995,26,web-application-attack,SERVER-IIS ism.dll access,moderate,16,,http
+857,26,web-application-activity,SERVER-WEBAPP faxsurvey access,moderate,16,,http
+835,26,attempted-recon,SERVER-WEBAPP test-cgi access,moderate,16,,http
+2570,25,non-standard-protocol,SERVER-WEBAPP invalid HTTP version string,complex,30,,http
+15587,25,misc-activity,FILE-IDENTIFY Microsoft Office Word file download request,complex,29,,http
+3079,25,attempted-user,BROWSER-IE Microsoft Internet Explorer ANI file parsing buffer overflow attempt,complex,28,,"ftp-data,http,imap,pop3"
+569,25,attempted-admin,PROTOCOL-RPC snmpXdmi overflow attempt TCP,moderate,23,,sunrpc
+20469,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+20468,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+20467,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+20466,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+20465,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+20464,25,misc-activity,FILE-IDENTIFY JAR/ZIP file magic detected,moderate,22,,"ftp-data,http,imap,pop3"
+1634,25,attempted-admin,PROTOCOL-POP PASS overflow attempt,complex,22,,pop3
+962,25,web-application-activity,SERVER-OTHER Microsoft Frontpage shtml.exe access,moderate,21,,http
+1725,25,web-application-attack,SERVER-IIS +.htr code fragment attempt,moderate,19,,http
+861,25,attempted-recon,SERVER-WEBAPP w3-msql access,moderate,19,,http
+1023,25,web-application-activity,SERVER-IIS msadcs.dll access,moderate,17,,http
+966,25,web-application-attack,SERVER-OTHER Microsoft Frontpage .... request,moderate,17,,http
+1644,25,web-application-attack,SERVER-WEBAPP test-cgi attempt,moderate,16,,http
+1249,25,web-application-activity,SERVER-OTHER Microsoft Frontpage rad fp4areg.dll access,moderate,16,,http
+984,25,web-application-activity,SERVER-IIS JET VBA access,moderate,16,,http
+977,25,web-application-activity,SERVER-IIS .cnf access,moderate,16,,http
+832,25,attempted-recon,SERVER-WEBAPP perl.exe access,moderate,16,,http
+821,25,web-application-attack,SERVER-WEBAPP imagemap.exe overflow attempt,moderate,16,,http
+1086,25,web-application-attack,SERVER-WEBAPP strings overflow,moderate,15,,http
+1252,25,attempted-admin,PROTOCOL-TELNET bsd telnet exploit response,moderate,14,,telnet
+20223,24,misc-activity,FILE-IDENTIFY SMI file download request,complex,33,,http
+2440,24,attempted-user,FILE-MULTIMEDIA RealNetworks RealPlayer playlist rtsp URL overflow attempt,complex,28,,"ftp-data,http,imap,pop3"
+2439,24,attempted-user,FILE-MULTIMEDIA RealNetworks RealPlayer playlist http URL overflow attempt,complex,28,,"ftp-data,http,imap,pop3"
+2438,24,attempted-user,FILE-MULTIMEDIA RealNetworks RealPlayer playlist file URL overflow attempt,complex,28,,"ftp-data,http,imap,pop3"
+16425,24,misc-activity,FILE-IDENTIFY Portable Executable binary file download request,complex,26,,http
+1993,24,misc-attack,PROTOCOL-IMAP login literal buffer overflow attempt,complex,25,,imap
+1941,24,attempted-admin,PROTOCOL-TFTP GET filename overflow attempt,complex,24,,tftp
+1755,24,misc-attack,PROTOCOL-IMAP partial body buffer overflow attempt,complex,23,,imap
+806,24,attempted-recon,SERVER-WEBAPP yabb directory traversal attempt,moderate,22,,http
+1079,24,web-application-activity,OS-WINDOWS Microsoft Windows WebDAV propfind access,complex,21,,http
+1845,24,misc-attack,PROTOCOL-IMAP list literal overflow attempt,complex,20,,imap
+1543,24,web-application-activity,SERVER-WEBAPP cgiwrap access,moderate,20,,http
+1423,24,web-application-attack,SERVER-WEBAPP content-disposition memchr overflow,moderate,20,,http
+1007,24,web-application-attack,SERVER-IIS Form_JScript.asp access,moderate,20,,http
+1378,24,misc-attack,PROTOCOL-FTP wu-ftp bad file completion attempt,moderate,18,,ftp
+1377,24,misc-attack,PROTOCOL-FTP wu-ftp bad file completion attempt,moderate,18,,ftp
+663,24,attempted-admin,SERVER-MAIL Sendmail rcpt to command attempt,complex,18,,smtp
+1180,24,attempted-recon,SERVER-WEBAPP get32.exe access,moderate,17,,http
+1037,24,web-application-activity,SERVER-IIS showcode.asp access,moderate,17,,http
+807,24,attempted-recon,SERVER-WEBAPP /wwwboard/passwd.txt access,moderate,17,,http
+255,24,attempted-recon,PROTOCOL-DNS dns zone transfer via TCP detected,moderate,17,,dns
+1149,24,web-application-activity,SERVER-WEBAPP count.cgi access,moderate,16,,http
+973,24,web-application-attack,SERVER-IIS *.idc attempt,moderate,16,,http
+829,24,attempted-recon,SERVER-WEBAPP nph-test-cgi access,moderate,16,,http
+2508,24,attempted-admin,OS-WINDOWS DCERPC NCACN-IP-TCP lsass DsRolerUpgradeDownlevelServer overflow attempt,moderate,15,,netbios-ssn
+1253,24,successful-admin,PROTOCOL-TELNET bsd exploit client finishing,moderate,15,,telnet
+1245,24,web-application-activity,SERVER-IIS ISAPI .idq access,moderate,15,,http
+1242,24,web-application-activity,SERVER-IIS ISAPI .ida access,moderate,15,,http
+1040,24,web-application-activity,SERVER-IIS srchadm access,simple,14,,http
+303,24,attempted-admin,SERVER-OTHER Bind Buffer Overflow named tsig overflow attempt,moderate,13,,dns
+1053,23,web-application-attack,SERVER-WEBAPP ads.cgi command execution attempt,complex,30,,http
+2101,23,protocol-command-decode,OS-WINDOWS Microsoft Windows SMB Trans Max Param/Count OS-WINDOWS attempt,complex,27,,
+16205,23,misc-activity,FILE-IDENTIFY BMP file download request,complex,26,,http
+15013,23,misc-activity,FILE-IDENTIFY PDF file download request,complex,26,,http
+2386,23,attempted-dos,SERVER-IIS NTLM ASN1 vulnerability scan attempt,complex,26,,http
+2337,23,attempted-admin,PROTOCOL-TFTP PUT filename overflow attempt,complex,26,,
+19211,23,misc-activity,FILE-IDENTIFY ZIP archive file download request,complex,25,,http
+17380,23,misc-activity,FILE-IDENTIFY PNG file download request,complex,25,,http
+2178,23,misc-attack,PROTOCOL-FTP USER format string attempt,complex,25,,ftp
+1976,23,attempted-admin,PROTOCOL-FTP RMD overflow attempt,complex,25,,ftp
+1399,23,web-application-attack,SERVER-WEBAPP PHP-Nuke remote file include attempt,complex,24,,http
+1379,23,attempted-admin,PROTOCOL-FTP STAT overflow attempt,complex,24,,ftp
+1277,23,rpc-portmap-decode,PROTOCOL-RPC portmap ypupdated request UDP,complex,24,,sunrpc
+1051,23,web-application-attack,FILE-OTHER technote main.cgi file directory traversal attempt,moderate,23,,http
+664,23,attempted-admin,SERVER-MAIL Sendmail RCPT TO decode attempt,complex,21,,smtp
+577,23,rpc-portmap-decode,PROTOCOL-RPC portmap bootparam request UDP,complex,21,,sunrpc
+939,23,web-application-activity,SERVER-OTHER Microsoft Frontpage posting,moderate,20,,http
+20486,23,misc-activity,FILE-IDENTIFY RTF file magic detected,moderate,19,,"ftp-data,http,imap,pop3"
+1388,23,misc-attack,OS-WINDOWS Microsoft Windows UPnP Location overflow attempt,complex,19,,
+1196,23,web-application-attack,SERVER-WEBAPP SGI InfoSearch fname attempt,moderate,19,,http
+1185,23,web-application-attack,SERVER-WEBAPP bizdbsearch attempt,moderate,19,,http
+1500,23,web-application-activity,SERVER-WEBAPP ExAir access,moderate,18,,http
+1412,23,attempted-recon,PROTOCOL-SNMP public access tcp,moderate,18,,snmp
+1406,23,web-application-activity,SERVER-WEBAPP agora.cgi access,moderate,18,,http
+1080,23,web-application-attack,SERVER-WEBAPP unify eWave ServletExec upload,moderate,18,,http
+1568,23,web-application-activity,SERVER-IIS /exchange/root.asp access,moderate,17,,http
+1301,23,attempted-recon,SERVER-WEBAPP admin.php access,moderate,17,,http
+1106,23,web-application-activity,SERVER-WEBAPP Poll-it access,moderate,16,,http
+1018,23,web-application-attack,SERVER-IIS iisadmpwd attempt,moderate,16,,http
+955,23,web-application-activity,SERVER-OTHER Microsoft Frontpage access.cnf access,moderate,16,,http
+896,23,web-application-activity,SERVER-WEBAPP way-board access,moderate,16,,http
+598,23,rpc-portmap-decode,PROTOCOL-RPC portmap listing TCP 111,moderate,16,,sunrpc
+1219,23,web-application-activity,SERVER-WEBAPP dfire.cgi access,moderate,15,,http
+1005,23,web-application-activity,SERVER-IIS codebrowser SDK access,moderate,15,,http
+1000,23,web-application-activity,SERVER-IIS bdir.htr access,moderate,15,,http
+833,23,attempted-recon,SERVER-WEBAPP rguest.exe access,moderate,15,,http
+3218,23,attempted-admin,OS-WINDOWS DCERPC NCACN-IP-TCP winreg OpenKey overflow attempt,moderate,14,,netbios-ssn
+974,23,web-application-attack,SERVER-IIS Microsoft Windows IIS directory traversal attempt,simple,12,,http
+314,23,attempted-admin,SERVER-OTHER Bind Buffer Overflow named tsig overflow attempt,simple,12,,dns
+2252,22,attempted-admin,OS-WINDOWS Microsoft Windows SMB-DS DCERPC Remote Activation bind attempt,complex,35,,netbios-ssn
+1970,22,web-application-attack,SERVER-IIS MDAC Content-Type overflow attempt,complex,33,,http
+3007,22,misc-attack,PROTOCOL-IMAP command overflow attempt,complex,27,,imap
+590,22,rpc-portmap-decode,PROTOCOL-RPC portmap ypserv request UDP,complex,26,,sunrpc
+2392,22,attempted-admin,PROTOCOL-FTP RETR overflow attempt,complex,24,,ftp
+2005,22,rpc-portmap-decode,PROTOCOL-RPC portmap kcms_server request UDP,complex,24,,sunrpc
+1610,22,web-application-attack,SERVER-WEBAPP formmail arbitrary command execution attempt,moderate,23,,http
+976,22,web-application-activity,SERVER-WEBAPP .bat? access,moderate,23,,http
+595,22,rpc-portmap-decode,PROTOCOL-RPC portmap espd request TCP,complex,23,,sunrpc
+591,22,rpc-portmap-decode,PROTOCOL-RPC portmap ypupdated request TCP,complex,23,,sunrpc
+1538,22,attempted-admin,PROTOCOL-NNTP AUTHINFO USER overflow attempt,complex,22,,
+1250,22,web-application-attack,OS-OTHER Cisco IOS HTTP configuration attempt,complex,22,,http
+900,22,web-application-attack,SERVER-WEBAPP webspirs.cgi directory traversal attempt,moderate,22,,http
+813,22,web-application-attack,SERVER-WEBAPP webplus directory traversal,moderate,22,,http
+361,22,bad-unknown,PROTOCOL-FTP SITE EXEC attempt,complex,22,,ftp
+2090,22,attempted-admin,SERVER-IIS WEBDAV exploit attempt,moderate,21,,http
+1587,22,web-application-activity,SERVER-WEBAPP cgitest.exe access,moderate,20,,http
+1425,22,web-application-attack,SERVER-WEBAPP content-disposition file upload attempt,moderate,20,,http
+20483,22,misc-activity,FILE-IDENTIFY JPEG file magic detected,moderate,19,,"ftp-data,http,imap,pop3"
+20478,22,misc-activity,FILE-IDENTIFY PNG file magic detected,moderate,19,,"ftp-data,http,imap,pop3"
+1672,22,denial-of-service,PROTOCOL-FTP CWD ~ attempt,complex,19,,ftp
+805,22,attempted-user,SERVER-WEBAPP Progress webspeed access,moderate,19,,http
+1595,22,web-application-activity,SERVER-IIS htimage.exe access,moderate,18,,http
+1487,22,web-application-activity,SERVER-IIS /iisadmpwd/aexp2.htr access,moderate,18,,http
+1594,22,web-application-activity,SERVER-WEBAPP FormHandler.cgi access,moderate,17,,http
+1392,22,attempted-recon,SERVER-WEBAPP lastlines.cgi access,moderate,17,,http
+897,22,attempted-recon,SERVER-WEBAPP pals-cgi access,moderate,17,,http
+837,22,attempted-recon,SERVER-WEBAPP uploader.exe access,moderate,17,,http
+2656,22,attempted-admin,SERVER-WEBAPP SSLv2 Client_Hello Challenge Length overflow attempt,moderate,16,,ssl
+1652,22,web-application-attack,SERVER-WEBAPP campas attempt,moderate,16,,http
+1307,22,web-application-activity,SERVER-WEBAPP store.cgi access,moderate,16,,http
+1195,22,web-application-activity,SERVER-WEBAPP sojourn.cgi access,moderate,16,,http
+1160,22,attempted-recon,SERVER-WEBAPP Netscape dir index wp,moderate,16,,http
+1022,22,web-application-activity,SERVER-IIS jet vba access,moderate,16,,http
+993,22,web-application-attack,SERVER-IIS iisadmin access,moderate,16,,http
+979,22,web-application-attack,SERVER-IIS ASP contents view,moderate,16,,http
+965,22,web-application-activity,SERVER-OTHER Microsoft Frontpage writeto.cnf access,moderate,16,,http
+963,22,web-application-activity,SERVER-OTHER Microsoft Frontpage svcacl.cnf access,moderate,16,,http
+961,22,web-application-activity,SERVER-OTHER Microsoft Frontpage services.cnf access,moderate,16,,http
+958,22,web-application-activity,SERVER-OTHER Microsoft Frontpage service.cnf access,moderate,16,,http
+951,22,web-application-activity,SERVER-OTHER Microsoft Frontpage authors.pwd access,moderate,16,,http
+937,22,web-application-activity,SERVER-OTHER Microsoft Frontpage _vti_rpc access,moderate,16,,http
+906,22,attempted-recon,SERVER-OTHER Adobe Coldfusion getfile.cfm access,moderate,16,,http
+905,22,attempted-recon,SERVER-OTHER Adobe Coldfusion application.cfm access,moderate,16,,http
+904,22,attempted-recon,SERVER-OTHER Adobe Coldfusion exampleapp application.cfm,moderate,16,,http
+901,22,attempted-recon,SERVER-WEBAPP webspirs.cgi access,moderate,16,,http
+892,22,attempted-recon,SERVER-WEBAPP AnyForm2 access,moderate,16,,http
+890,22,attempted-recon,SERVER-WEBAPP sendform.cgi access,moderate,16,,http
+889,22,attempted-recon,SERVER-WEBAPP ppdscgi.exe access,moderate,16,,http
+875,22,attempted-recon,SERVER-WEBAPP win-c-sample.exe access,moderate,16,,http
+867,22,attempted-recon,SERVER-WEBAPP visadmin.exe access,moderate,16,,http
+852,22,attempted-recon,SERVER-WEBAPP wguest.exe access,moderate,16,,http
+847,22,attempted-recon,SERVER-WEBAPP campas access,moderate,16,,http
+838,22,attempted-recon,SERVER-WEBAPP webgais access,moderate,16,,http
+836,22,attempted-recon,SERVER-WEBAPP textcounter.pl access,moderate,16,,http
+819,22,attempted-recon,SERVER-WEBAPP mmstdod.cgi access,moderate,16,,http
+815,22,attempted-recon,SERVER-WEBAPP websendmail access,moderate,16,,http
+1483,22,web-application-activity,SERVER-WEBAPP ustorekeeper.pl access,moderate,15,,http
+1028,22,web-application-activity,SERVER-IIS query.asp access,moderate,15,,http
+1026,22,web-application-attack,SERVER-IIS perl-browse newline attempt,moderate,15,,http
+985,22,web-application-activity,SERVER-IIS JET VBA access,moderate,15,,http
+860,22,attempted-recon,SERVER-WEBAPP snork.bat access,moderate,15,,http
+843,22,attempted-recon,SERVER-WEBAPP anform2 access,moderate,15,,http
+812,22,attempted-recon,SERVER-WEBAPP webplus version access,moderate,15,,http
+2511,22,attempted-admin,OS-WINDOWS DCERPC NCADG-IP-UDP lsass DsRolerUpgradeDownlevelServer overflow attempt,moderate,14,,netbios-dgm
+1804,21,web-application-attack,SERVER-IIS .cdx HTTP header buffer overflow attempt,complex,30,,http
+1803,21,web-application-attack,SERVER-IIS .cer HTTP header buffer overflow attempt,complex,30,,http
+1052,21,web-application-attack,SERVER-WEBAPP technote print.cgi directory traversal attempt,complex,29,,http
+1276,21,rpc-portmap-decode,PROTOCOL-RPC portmap ypserv request TCP,complex,26,,sunrpc
+1532,21,web-application-attack,SERVER-WEBAPP bb-hostscv.sh attempt,moderate,25,,http
+803,21,web-application-attack,SERVER-WEBAPP HyperSeek hsx.cgi directory traversal attempt,moderate,25,,http
+1092,21,web-application-attack,SERVER-WEBAPP Armada Style Master Index directory traversal,moderate,24,,http
+2389,21,attempted-admin,PROTOCOL-FTP RNTO overflow attempt,complex,23,,ftp
+1194,21,web-application-attack,SERVER-WEBAPP sojourn.cgi File attempt,moderate,23,,http
+3148,21,attempted-user,OS-WINDOWS Microsoft Windows HTML Help hhctrl.ocx clsid access attempt,complex,22,,http
+2045,21,attempted-admin,PROTOCOL-RPC snmpXdmi overflow attempt UDP,moderate,22,,
+1271,21,rpc-portmap-decode,PROTOCOL-RPC portmap rusers request TCP,complex,22,,sunrpc
+580,21,rpc-portmap-decode,PROTOCOL-RPC portmap nisd request UDP,complex,22,,sunrpc
+1593,21,web-application-attack,SERVER-WEBAPP FormHandler.cgi external site redirection attempt,moderate,21,,http
+1550,21,attempted-admin,SERVER-MAIL ETRN overflow attempt,complex,21,,smtp
+1283,21,web-application-attack,SERVER-IIS Microsoft Office Outlook web dos,moderate,21,,http
+1264,21,rpc-portmap-decode,PROTOCOL-RPC portmap bootparam request TCP,complex,21,,sunrpc
+978,21,web-application-attack,SERVER-IIS ASP contents view,moderate,20,,http
+337,21,attempted-admin,PROTOCOL-FTP CEL overflow attempt,complex,20,,ftp
+20480,21,misc-activity,FILE-IDENTIFY JPEG file magic detection,moderate,19,,"ftp-data,http,imap,pop3"
+1411,21,attempted-recon,PROTOCOL-SNMP public access udp,moderate,19,,snmp
+1380,21,web-application-attack,SERVER-IIS Form_VBScript.asp access,moderate,19,,http
+1012,21,web-application-attack,SERVER-IIS fpcount attempt,moderate,19,,http
+494,21,bad-unknown,INDICATOR-COMPROMISE command completed,complex,19,,http
+1565,21,web-application-attack,SERVER-WEBAPP eshop.pl arbitrary command execution attempt,moderate,18,,http
+1384,21,misc-attack,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,moderate,18,,
+1187,21,web-application-attack,SERVER-WEBAPP SalesLogix Eviewer web command attempt,moderate,18,,http
+3087,21,attempted-admin,SERVER-IIS w3who.dll buffer overflow attempt,moderate,17,,http
+1476,21,attempted-recon,SERVER-WEBAPP sdbsearch.cgi access,moderate,17,,http
+1700,21,web-application-activity,SERVER-WEBAPP imagemap.exe access,moderate,16,,http
+1649,21,attempted-recon,SERVER-WEBAPP perl command attempt,moderate,16,,http
+1648,21,attempted-recon,SERVER-WEBAPP perl.exe command attempt,moderate,16,,http
+1637,21,attempted-recon,SERVER-WEBAPP yabb access,moderate,16,,http
+1602,21,web-application-activity,SERVER-WEBAPP htsearch access,moderate,16,,http
+1601,21,web-application-attack,SERVER-WEBAPP htsearch arbitrary file read attempt,moderate,16,,http
+1535,21,web-application-activity,SERVER-WEBAPP bizdbsearch access,moderate,16,,http
+1480,21,attempted-recon,SERVER-WEBAPP ttawebtop.cgi access,moderate,16,,http
+1474,21,web-application-activity,SERVER-WEBAPP cal_make.pl access,moderate,16,,http
+1472,21,web-application-activity,SERVER-WEBAPP book.cgi access,moderate,16,,http
+933,21,attempted-recon,SERVER-OTHER Adobe Coldfusion onrequestend.cfm access,moderate,16,,http
+932,21,attempted-recon,SERVER-OTHER Adobe Coldfusion application.cfm access,moderate,16,,http
+908,21,attempted-recon,SERVER-OTHER Adobe Coldfusion administrator access,moderate,16,,http
+898,21,attempted-recon,SERVER-WEBAPP commerce.cgi access,moderate,16,,http

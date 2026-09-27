@@ -1,0 +1,27 @@
+{
+  "A_initially_mapped": {
+    "categories_equal_total": true,
+    "cohort_total": 396,
+    "counts": {
+      "Easy": 166,
+      "Hard": 179,
+      "Medium": 51
+    },
+    "percentages_sum": 100.0,
+    "sum_of_categories": 396
+  },
+  "B_initially_unmapped": {
+    "categories_equal_total": true,
+    "cohort_total": 3587,
+    "counts": {
+      "Easy*": 128,
+      "Hard*": 777,
+      "Medium*": 2682
+    },
+    "percentages_sum": 100.0,
+    "sum_of_categories": 3587
+  },
+  "cohort_a_input_rows": 430,
+  "cohort_b_input_rows": 3587,
+  "excluded_revoked_attack_ids": 34
+}

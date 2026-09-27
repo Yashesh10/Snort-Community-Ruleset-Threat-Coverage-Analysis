@@ -1,0 +1,325 @@
+category,pattern,description,rule_count,rule_pct
+attempted-admin,content,Payload/content string match,264,94.96
+attempted-admin,cve_reference,CVE reference,215,77.34
+attempted-admin,direct_attack_reference,Direct ATT&CK reference,4,1.44
+attempted-admin,file_data,Decoded file data inspection,2,0.72
+attempted-admin,flow,Flow direction/state constraint,266,95.68
+attempted-admin,flowbits,Stateful flowbits usage,3,1.08
+attempted-admin,heuristic_attack_candidate,Heuristic ATT&CK candidate,2,0.72
+attempted-admin,http_keywords,HTTP-specific buffer/keyword,40,14.39
+attempted-admin,metadata,Metadata annotation,278,100.0
+attempted-admin,pcre,Regular expression match,113,40.65
+attempted-admin,references,External reference,243,87.41
+attempted-admin,service,Explicit service selector,175,62.95
+attempted-dos,content,Payload/content string match,57,85.07
+attempted-dos,cve_reference,CVE reference,59,88.06
+attempted-dos,direct_attack_reference,Direct ATT&CK reference,4,5.97
+attempted-dos,file_data,Decoded file data inspection,0,0.0
+attempted-dos,flow,Flow direction/state constraint,50,74.63
+attempted-dos,flowbits,Stateful flowbits usage,0,0.0
+attempted-dos,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+attempted-dos,http_keywords,HTTP-specific buffer/keyword,4,5.97
+attempted-dos,metadata,Metadata annotation,67,100.0
+attempted-dos,pcre,Regular expression match,7,10.45
+attempted-dos,references,External reference,65,97.01
+attempted-dos,service,Explicit service selector,12,17.91
+attempted-recon,content,Payload/content string match,422,96.79
+attempted-recon,cve_reference,CVE reference,236,54.13
+attempted-recon,direct_attack_reference,Direct ATT&CK reference,19,4.36
+attempted-recon,file_data,Decoded file data inspection,1,0.23
+attempted-recon,flow,Flow direction/state constraint,429,98.39
+attempted-recon,flowbits,Stateful flowbits usage,3,0.69
+attempted-recon,heuristic_attack_candidate,Heuristic ATT&CK candidate,1,0.23
+attempted-recon,http_keywords,HTTP-specific buffer/keyword,260,59.63
+attempted-recon,metadata,Metadata annotation,436,100.0
+attempted-recon,pcre,Regular expression match,8,1.83
+attempted-recon,references,External reference,355,81.42
+attempted-recon,service,Explicit service selector,337,77.29
+attempted-user,content,Payload/content string match,427,100.0
+attempted-user,cve_reference,CVE reference,134,31.38
+attempted-user,direct_attack_reference,Direct ATT&CK reference,0,0.0
+attempted-user,file_data,Decoded file data inspection,32,7.49
+attempted-user,flow,Flow direction/state constraint,425,99.53
+attempted-user,flowbits,Stateful flowbits usage,22,5.15
+attempted-user,heuristic_attack_candidate,Heuristic ATT&CK candidate,8,1.87
+attempted-user,http_keywords,HTTP-specific buffer/keyword,68,15.93
+attempted-user,metadata,Metadata annotation,427,100.0
+attempted-user,pcre,Regular expression match,329,77.05
+attempted-user,references,External reference,385,90.16
+attempted-user,service,Explicit service selector,111,26.0
+bad-unknown,content,Payload/content string match,45,100.0
+bad-unknown,cve_reference,CVE reference,12,26.67
+bad-unknown,direct_attack_reference,Direct ATT&CK reference,4,8.89
+bad-unknown,file_data,Decoded file data inspection,7,15.56
+bad-unknown,flow,Flow direction/state constraint,43,95.56
+bad-unknown,flowbits,Stateful flowbits usage,0,0.0
+bad-unknown,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+bad-unknown,http_keywords,HTTP-specific buffer/keyword,3,6.67
+bad-unknown,metadata,Metadata annotation,45,100.0
+bad-unknown,pcre,Regular expression match,13,28.89
+bad-unknown,references,External reference,25,55.56
+bad-unknown,service,Explicit service selector,25,55.56
+default-login-attempt,content,Payload/content string match,9,100.0
+default-login-attempt,cve_reference,CVE reference,3,33.33
+default-login-attempt,direct_attack_reference,Direct ATT&CK reference,6,66.67
+default-login-attempt,file_data,Decoded file data inspection,0,0.0
+default-login-attempt,flow,Flow direction/state constraint,9,100.0
+default-login-attempt,flowbits,Stateful flowbits usage,2,22.22
+default-login-attempt,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+default-login-attempt,http_keywords,HTTP-specific buffer/keyword,4,44.44
+default-login-attempt,metadata,Metadata annotation,9,100.0
+default-login-attempt,pcre,Regular expression match,3,33.33
+default-login-attempt,references,External reference,9,100.0
+default-login-attempt,service,Explicit service selector,9,100.0
+denial-of-service,content,Payload/content string match,4,80.0
+denial-of-service,cve_reference,CVE reference,4,80.0
+denial-of-service,direct_attack_reference,Direct ATT&CK reference,0,0.0
+denial-of-service,file_data,Decoded file data inspection,0,0.0
+denial-of-service,flow,Flow direction/state constraint,5,100.0
+denial-of-service,flowbits,Stateful flowbits usage,0,0.0
+denial-of-service,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+denial-of-service,http_keywords,HTTP-specific buffer/keyword,1,20.0
+denial-of-service,metadata,Metadata annotation,5,100.0
+denial-of-service,pcre,Regular expression match,1,20.0
+denial-of-service,references,External reference,4,80.0
+denial-of-service,service,Explicit service selector,2,40.0
+misc-activity,content,Payload/content string match,272,77.71
+misc-activity,cve_reference,CVE reference,23,6.57
+misc-activity,direct_attack_reference,Direct ATT&CK reference,22,6.29
+misc-activity,file_data,Decoded file data inspection,60,17.14
+misc-activity,flow,Flow direction/state constraint,250,71.43
+misc-activity,flowbits,Stateful flowbits usage,145,41.43
+misc-activity,heuristic_attack_candidate,Heuristic ATT&CK candidate,42,12.0
+misc-activity,http_keywords,HTTP-specific buffer/keyword,80,22.86
+misc-activity,metadata,Metadata annotation,350,100.0
+misc-activity,pcre,Regular expression match,83,23.71
+misc-activity,references,External reference,111,31.71
+misc-activity,service,Explicit service selector,200,57.14
+misc-attack,content,Payload/content string match,100,99.01
+misc-attack,cve_reference,CVE reference,88,87.13
+misc-attack,direct_attack_reference,Direct ATT&CK reference,0,0.0
+misc-attack,file_data,Decoded file data inspection,2,1.98
+misc-attack,flow,Flow direction/state constraint,94,93.07
+misc-attack,flowbits,Stateful flowbits usage,0,0.0
+misc-attack,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+misc-attack,http_keywords,HTTP-specific buffer/keyword,6,5.94
+misc-attack,metadata,Metadata annotation,101,100.0
+misc-attack,pcre,Regular expression match,49,48.51
+misc-attack,references,External reference,94,93.07
+misc-attack,service,Explicit service selector,61,60.4
+network-scan,content,Payload/content string match,7,100.0
+network-scan,cve_reference,CVE reference,0,0.0
+network-scan,direct_attack_reference,Direct ATT&CK reference,2,28.57
+network-scan,file_data,Decoded file data inspection,0,0.0
+network-scan,flow,Flow direction/state constraint,6,85.71
+network-scan,flowbits,Stateful flowbits usage,0,0.0
+network-scan,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+network-scan,http_keywords,HTTP-specific buffer/keyword,4,57.14
+network-scan,metadata,Metadata annotation,7,100.0
+network-scan,pcre,Regular expression match,1,14.29
+network-scan,references,External reference,5,71.43
+network-scan,service,Explicit service selector,4,57.14
+non-standard-protocol,content,Payload/content string match,1,100.0
+non-standard-protocol,cve_reference,CVE reference,1,100.0
+non-standard-protocol,direct_attack_reference,Direct ATT&CK reference,0,0.0
+non-standard-protocol,file_data,Decoded file data inspection,0,0.0
+non-standard-protocol,flow,Flow direction/state constraint,1,100.0
+non-standard-protocol,flowbits,Stateful flowbits usage,0,0.0
+non-standard-protocol,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+non-standard-protocol,http_keywords,HTTP-specific buffer/keyword,0,0.0
+non-standard-protocol,metadata,Metadata annotation,1,100.0
+non-standard-protocol,pcre,Regular expression match,1,100.0
+non-standard-protocol,references,External reference,1,100.0
+non-standard-protocol,service,Explicit service selector,1,100.0
+policy-violation,content,Payload/content string match,63,100.0
+policy-violation,cve_reference,CVE reference,9,14.29
+policy-violation,direct_attack_reference,Direct ATT&CK reference,1,1.59
+policy-violation,file_data,Decoded file data inspection,0,0.0
+policy-violation,flow,Flow direction/state constraint,63,100.0
+policy-violation,flowbits,Stateful flowbits usage,1,1.59
+policy-violation,heuristic_attack_candidate,Heuristic ATT&CK candidate,6,9.52
+policy-violation,http_keywords,HTTP-specific buffer/keyword,19,30.16
+policy-violation,metadata,Metadata annotation,63,100.0
+policy-violation,pcre,Regular expression match,11,17.46
+policy-violation,references,External reference,20,31.75
+policy-violation,service,Explicit service selector,26,41.27
+protocol-command-decode,content,Payload/content string match,107,99.07
+protocol-command-decode,cve_reference,CVE reference,45,41.67
+protocol-command-decode,direct_attack_reference,Direct ATT&CK reference,0,0.0
+protocol-command-decode,file_data,Decoded file data inspection,0,0.0
+protocol-command-decode,flow,Flow direction/state constraint,105,97.22
+protocol-command-decode,flowbits,Stateful flowbits usage,15,13.89
+protocol-command-decode,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+protocol-command-decode,http_keywords,HTTP-specific buffer/keyword,0,0.0
+protocol-command-decode,metadata,Metadata annotation,108,100.0
+protocol-command-decode,pcre,Regular expression match,64,59.26
+protocol-command-decode,references,External reference,49,45.37
+protocol-command-decode,service,Explicit service selector,54,50.0
+rpc-portmap-decode,content,Payload/content string match,83,100.0
+rpc-portmap-decode,cve_reference,CVE reference,46,55.42
+rpc-portmap-decode,direct_attack_reference,Direct ATT&CK reference,0,0.0
+rpc-portmap-decode,file_data,Decoded file data inspection,0,0.0
+rpc-portmap-decode,flow,Flow direction/state constraint,79,95.18
+rpc-portmap-decode,flowbits,Stateful flowbits usage,0,0.0
+rpc-portmap-decode,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+rpc-portmap-decode,http_keywords,HTTP-specific buffer/keyword,0,0.0
+rpc-portmap-decode,metadata,Metadata annotation,83,100.0
+rpc-portmap-decode,pcre,Regular expression match,0,0.0
+rpc-portmap-decode,references,External reference,47,56.63
+rpc-portmap-decode,service,Explicit service selector,63,75.9
+shellcode-detect,content,Payload/content string match,26,100.0
+shellcode-detect,cve_reference,CVE reference,10,38.46
+shellcode-detect,direct_attack_reference,Direct ATT&CK reference,0,0.0
+shellcode-detect,file_data,Decoded file data inspection,0,0.0
+shellcode-detect,flow,Flow direction/state constraint,13,50.0
+shellcode-detect,flowbits,Stateful flowbits usage,0,0.0
+shellcode-detect,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+shellcode-detect,http_keywords,HTTP-specific buffer/keyword,0,0.0
+shellcode-detect,metadata,Metadata annotation,26,100.0
+shellcode-detect,pcre,Regular expression match,0,0.0
+shellcode-detect,references,External reference,10,38.46
+shellcode-detect,service,Explicit service selector,0,0.0
+string-detect,content,Payload/content string match,2,100.0
+string-detect,cve_reference,CVE reference,2,100.0
+string-detect,direct_attack_reference,Direct ATT&CK reference,0,0.0
+string-detect,file_data,Decoded file data inspection,0,0.0
+string-detect,flow,Flow direction/state constraint,2,100.0
+string-detect,flowbits,Stateful flowbits usage,0,0.0
+string-detect,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+string-detect,http_keywords,HTTP-specific buffer/keyword,0,0.0
+string-detect,metadata,Metadata annotation,2,100.0
+string-detect,pcre,Regular expression match,2,100.0
+string-detect,references,External reference,2,100.0
+string-detect,service,Explicit service selector,1,50.0
+successful-admin,content,Payload/content string match,10,100.0
+successful-admin,cve_reference,CVE reference,5,50.0
+successful-admin,direct_attack_reference,Direct ATT&CK reference,0,0.0
+successful-admin,file_data,Decoded file data inspection,0,0.0
+successful-admin,flow,Flow direction/state constraint,10,100.0
+successful-admin,flowbits,Stateful flowbits usage,0,0.0
+successful-admin,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+successful-admin,http_keywords,HTTP-specific buffer/keyword,0,0.0
+successful-admin,metadata,Metadata annotation,10,100.0
+successful-admin,pcre,Regular expression match,0,0.0
+successful-admin,references,External reference,8,80.0
+successful-admin,service,Explicit service selector,1,10.0
+successful-recon-limited,content,Payload/content string match,4,100.0
+successful-recon-limited,cve_reference,CVE reference,0,0.0
+successful-recon-limited,direct_attack_reference,Direct ATT&CK reference,0,0.0
+successful-recon-limited,file_data,Decoded file data inspection,0,0.0
+successful-recon-limited,flow,Flow direction/state constraint,0,0.0
+successful-recon-limited,flowbits,Stateful flowbits usage,0,0.0
+successful-recon-limited,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+successful-recon-limited,http_keywords,HTTP-specific buffer/keyword,0,0.0
+successful-recon-limited,metadata,Metadata annotation,4,100.0
+successful-recon-limited,pcre,Regular expression match,0,0.0
+successful-recon-limited,references,External reference,4,100.0
+successful-recon-limited,service,Explicit service selector,0,0.0
+successful-user,content,Payload/content string match,1,100.0
+successful-user,cve_reference,CVE reference,0,0.0
+successful-user,direct_attack_reference,Direct ATT&CK reference,0,0.0
+successful-user,file_data,Decoded file data inspection,0,0.0
+successful-user,flow,Flow direction/state constraint,1,100.0
+successful-user,flowbits,Stateful flowbits usage,0,0.0
+successful-user,heuristic_attack_candidate,Heuristic ATT&CK candidate,1,100.0
+successful-user,http_keywords,HTTP-specific buffer/keyword,0,0.0
+successful-user,metadata,Metadata annotation,1,100.0
+successful-user,pcre,Regular expression match,0,0.0
+successful-user,references,External reference,0,0.0
+successful-user,service,Explicit service selector,0,0.0
+suspicious-filename-detect,content,Payload/content string match,6,100.0
+suspicious-filename-detect,cve_reference,CVE reference,0,0.0
+suspicious-filename-detect,direct_attack_reference,Direct ATT&CK reference,0,0.0
+suspicious-filename-detect,file_data,Decoded file data inspection,0,0.0
+suspicious-filename-detect,flow,Flow direction/state constraint,6,100.0
+suspicious-filename-detect,flowbits,Stateful flowbits usage,0,0.0
+suspicious-filename-detect,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+suspicious-filename-detect,http_keywords,HTTP-specific buffer/keyword,0,0.0
+suspicious-filename-detect,metadata,Metadata annotation,6,100.0
+suspicious-filename-detect,pcre,Regular expression match,1,16.67
+suspicious-filename-detect,references,External reference,0,0.0
+suspicious-filename-detect,service,Explicit service selector,6,100.0
+suspicious-login,content,Payload/content string match,16,100.0
+suspicious-login,cve_reference,CVE reference,3,18.75
+suspicious-login,direct_attack_reference,Direct ATT&CK reference,5,31.25
+suspicious-login,file_data,Decoded file data inspection,0,0.0
+suspicious-login,flow,Flow direction/state constraint,16,100.0
+suspicious-login,flowbits,Stateful flowbits usage,0,0.0
+suspicious-login,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+suspicious-login,http_keywords,HTTP-specific buffer/keyword,0,0.0
+suspicious-login,metadata,Metadata annotation,16,100.0
+suspicious-login,pcre,Regular expression match,2,12.5
+suspicious-login,references,External reference,8,50.0
+suspicious-login,service,Explicit service selector,14,87.5
+system-call-detect,content,Payload/content string match,5,100.0
+system-call-detect,cve_reference,CVE reference,1,20.0
+system-call-detect,direct_attack_reference,Direct ATT&CK reference,0,0.0
+system-call-detect,file_data,Decoded file data inspection,0,0.0
+system-call-detect,flow,Flow direction/state constraint,2,40.0
+system-call-detect,flowbits,Stateful flowbits usage,0,0.0
+system-call-detect,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+system-call-detect,http_keywords,HTTP-specific buffer/keyword,0,0.0
+system-call-detect,metadata,Metadata annotation,5,100.0
+system-call-detect,pcre,Regular expression match,0,0.0
+system-call-detect,references,External reference,1,20.0
+system-call-detect,service,Explicit service selector,0,0.0
+trojan-activity,content,Payload/content string match,1118,100.0
+trojan-activity,cve_reference,CVE reference,28,2.5
+trojan-activity,direct_attack_reference,Direct ATT&CK reference,83,7.42
+trojan-activity,file_data,Decoded file data inspection,155,13.86
+trojan-activity,flow,Flow direction/state constraint,1117,99.91
+trojan-activity,flowbits,Stateful flowbits usage,50,4.47
+trojan-activity,heuristic_attack_candidate,Heuristic ATT&CK candidate,220,19.68
+trojan-activity,http_keywords,HTTP-specific buffer/keyword,761,68.07
+trojan-activity,metadata,Metadata annotation,1118,100.0
+trojan-activity,pcre,Regular expression match,243,21.74
+trojan-activity,references,External reference,1007,90.07
+trojan-activity,service,Explicit service selector,992,88.73
+unknown,content,Payload/content string match,2,100.0
+unknown,cve_reference,CVE reference,0,0.0
+unknown,direct_attack_reference,Direct ATT&CK reference,0,0.0
+unknown,file_data,Decoded file data inspection,0,0.0
+unknown,flow,Flow direction/state constraint,2,100.0
+unknown,flowbits,Stateful flowbits usage,0,0.0
+unknown,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+unknown,http_keywords,HTTP-specific buffer/keyword,0,0.0
+unknown,metadata,Metadata annotation,2,100.0
+unknown,pcre,Regular expression match,1,50.0
+unknown,references,External reference,0,0.0
+unknown,service,Explicit service selector,1,50.0
+unsuccessful-user,content,Payload/content string match,10,100.0
+unsuccessful-user,cve_reference,CVE reference,5,50.0
+unsuccessful-user,direct_attack_reference,Direct ATT&CK reference,2,20.0
+unsuccessful-user,file_data,Decoded file data inspection,0,0.0
+unsuccessful-user,flow,Flow direction/state constraint,10,100.0
+unsuccessful-user,flowbits,Stateful flowbits usage,0,0.0
+unsuccessful-user,heuristic_attack_candidate,Heuristic ATT&CK candidate,0,0.0
+unsuccessful-user,http_keywords,HTTP-specific buffer/keyword,0,0.0
+unsuccessful-user,metadata,Metadata annotation,10,100.0
+unsuccessful-user,pcre,Regular expression match,0,0.0
+unsuccessful-user,references,External reference,5,50.0
+unsuccessful-user,service,Explicit service selector,1,10.0
+web-application-activity,content,Payload/content string match,481,100.0
+web-application-activity,cve_reference,CVE reference,349,72.56
+web-application-activity,direct_attack_reference,Direct ATT&CK reference,4,0.83
+web-application-activity,file_data,Decoded file data inspection,0,0.0
+web-application-activity,flow,Flow direction/state constraint,481,100.0
+web-application-activity,flowbits,Stateful flowbits usage,0,0.0
+web-application-activity,heuristic_attack_candidate,Heuristic ATT&CK candidate,1,0.21
+web-application-activity,http_keywords,HTTP-specific buffer/keyword,456,94.8
+web-application-activity,metadata,Metadata annotation,481,100.0
+web-application-activity,pcre,Regular expression match,1,0.21
+web-application-activity,references,External reference,452,93.97
+web-application-activity,service,Explicit service selector,481,100.0
+web-application-attack,content,Payload/content string match,356,100.0
+web-application-attack,cve_reference,CVE reference,260,73.03
+web-application-attack,direct_attack_reference,Direct ATT&CK reference,5,1.4
+web-application-attack,file_data,Decoded file data inspection,4,1.12
+web-application-attack,flow,Flow direction/state constraint,356,100.0
+web-application-attack,flowbits,Stateful flowbits usage,1,0.28
+web-application-attack,heuristic_attack_candidate,Heuristic ATT&CK candidate,5,1.4
+web-application-attack,http_keywords,HTTP-specific buffer/keyword,308,86.52
+web-application-attack,metadata,Metadata annotation,356,100.0
+web-application-attack,pcre,Regular expression match,94,26.4
+web-application-attack,references,External reference,329,92.42
+web-application-attack,service,Explicit service selector,353,99.16

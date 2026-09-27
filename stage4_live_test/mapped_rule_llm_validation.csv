@@ -1,0 +1,6 @@
+SID,Existing Technique,LLM Prediction,Agreement,Confidence,Reason,Model
+213,T1014 - Rootkit,,no_prediction,0.0,"Rule only matches the string ""wh00t!"" with no protocol, direction, or behavioral context; insufficient to map to a specific ATT&CK technique.",nvidia/nemotron-3-ultra-550b-a55b
+214,T1014 - Rootkit,,no_prediction,0.0,"Rule only matches the string ""lrkr0x"" associated with a rootkit family; no observable network behavior described to support technique mapping.",nvidia/nemotron-3-ultra-550b-a55b
+215,T1014 - Rootkit,,no_prediction,0.0,"Rule only matches the string ""d13hh["" with no additional context about network activity; cannot infer a technique from signature alone.",nvidia/nemotron-3-ultra-550b-a55b
+216,T1014 - Rootkit,,no_prediction,0.0,"Rule matches the string ""satori"" (a botnet family) but provides no protocol, C2 structure, or observable behavior to justify a technique mapping.",nvidia/nemotron-3-ultra-550b-a55b
+233,T1078 - Valid Accounts,T1071 - Application Layer Protocol,mismatch,0.6,"Rule detects a default startup password (""betaalmostdone\)) in attacker-to-master Trin00 DDoS communication, indicating application-layer C2 authentication traffic.",nvidia/nemotron-3-ultra-550b-a55b

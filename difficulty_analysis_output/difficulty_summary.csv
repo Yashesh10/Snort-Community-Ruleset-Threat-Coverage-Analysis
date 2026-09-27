@@ -1,0 +1,9 @@
+cohort,difficulty,rules,percentage
+A_initially_mapped,Easy,166,41.92
+A_initially_mapped,Medium,51,12.88
+A_initially_mapped,Hard,179,45.2
+A_initially_mapped,Total,396,100.0
+B_initially_unmapped,Easy*,128,3.57
+B_initially_unmapped,Medium*,2682,74.77
+B_initially_unmapped,Hard*,777,21.66
+B_initially_unmapped,Total,3587,100.0

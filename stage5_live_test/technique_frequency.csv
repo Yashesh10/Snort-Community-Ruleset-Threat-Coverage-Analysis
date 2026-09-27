@@ -1,0 +1,35 @@
+technique_id,technique_name,rule_count,coverage_pct,rank_group
+T1105,Ingress Tool Transfer,196,45.58,top_20
+T1071.001,Web Protocols,60,13.95,top_20
+T1056,Input Capture,25,5.81,top_20
+T1020,Automated Exfiltration,20,4.65,top_20
+T1018,Remote System Discovery,19,4.42,top_20
+T1046,Network Service Discovery,19,4.42,top_20
+T1040,Network Sniffing,19,4.42,top_20
+T1014,Rootkit,18,4.19,top_20
+T1078,Valid Accounts,16,3.72,top_20
+T1192,Spearphishing Link,15,3.49,top_20
+T1505.003,Web Shell,12,2.79,top_20
+T1100,Web Shell,9,2.09,top_20
+T1027,Obfuscated Files or Information,9,2.09,top_20
+T1140,Deobfuscate/Decode Files or Information,9,2.09,top_20
+T1220,XSL Script Processing,6,1.4,top_20
+T1176,Software Extensions,6,1.4,top_20
+T1095,Non-Application Layer Protocol,6,1.4,top_20
+T1110,Brute Force,5,1.16,top_20
+T1087,Account Discovery,4,0.93,top_20
+T1071.004,DNS,4,0.93,top_20
+T1102,Web Service,3,0.7,bottom_20
+T1197,BITS Jobs,3,0.7,bottom_20
+T1077,Windows Admin Shares,3,0.7,bottom_20
+T1065,Uncommonly Used Port,2,0.47,bottom_20
+T1060,Registry Run Keys / Startup Folder,2,0.47,bottom_20
+T1132,Data Encoding,2,0.47,bottom_20
+T1001,Data Obfuscation,2,0.47,bottom_20
+T1170,Mshta,1,0.23,bottom_20
+T1139,Bash History,1,0.23,bottom_20
+T1196,Control Panel Items,1,0.23,bottom_20
+T1190,Exploit Public-Facing Application,1,0.23,bottom_20
+T1189,Drive-by Compromise,1,0.23,bottom_20
+T1055,Process Injection,1,0.23,bottom_20
+T1048,Exfiltration Over Alternative Protocol,1,0.23,bottom_20

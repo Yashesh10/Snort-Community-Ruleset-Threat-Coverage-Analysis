@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="35" font-family="Arial" font-size="20" fill="#111827">Keyword Baseline vs LLM Classification Results</text>
+<text x="30" y="93" font-family="Arial" font-size="14" fill="#374151">Keyword mapped</text>
+<rect x="300" y="70" width="520" height="30" fill="#2563eb"/>
+<text x="830" y="91" font-family="Arial" font-size="14" fill="#111827">430</text>
+<text x="30" y="151" font-family="Arial" font-size="14" fill="#374151">LLM classified with technique</text>
+<rect x="300" y="128" width="0" height="30" fill="#059669"/>
+<text x="310" y="149" font-family="Arial" font-size="14" fill="#111827">0</text>
+<text x="30" y="209" font-family="Arial" font-size="14" fill="#374151">LLM classified (responded)</text>
+<rect x="300" y="186" width="0" height="30" fill="#7c3aed"/>
+<text x="310" y="207" font-family="Arial" font-size="14" fill="#111827">0</text>
+</svg>
